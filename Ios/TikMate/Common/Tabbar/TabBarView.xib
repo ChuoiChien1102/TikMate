@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TabBarView" customModule="TikMate" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCoin" destination="zce-1k-Wlq" id="qYH-No-3xL"/>
+                <outlet property="btnDownload" destination="0VG-55-E0T" id="rJN-EP-5So"/>
+                <outlet property="btnVideo" destination="n14-04-DSR" id="x9U-Dd-qWx"/>
+                <outlet property="containerView" destination="iN0-l3-epB" id="I5r-Td-shn"/>
+                <outlet property="iconCoin" destination="uYC-rC-zsG" id="KYI-kw-WHE"/>
+                <outlet property="iconDownload" destination="rMy-Rr-v0z" id="wYH-aN-h0Y"/>
+                <outlet property="iconVideo" destination="aSX-ol-RPl" id="Av7-dx-xhm"/>
+                <outlet property="lbCoin" destination="UtJ-jF-PT5" id="68T-os-daN"/>
+                <outlet property="lbDownload" destination="zRE-3R-mye" id="oWd-GV-zmL"/>
+                <outlet property="lbVideo" destination="aOX-5j-lL2" id="w9l-eD-jwI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NND-9v-pPO">
+                    <rect key="frame" x="30" y="0.0" width="354" height="70"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gkb-ds-ql5">
+                            <rect key="frame" x="0.0" y="0.0" width="118" height="70"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Download" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRE-3R-mye">
+                                    <rect key="frame" x="28" y="39" width="68.5" height="18"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMy-Rr-v0z">
+                                    <rect key="frame" x="47" y="8" width="24" height="24"/>
+                                    <state key="normal" image="ic_download"/>
+                                    <state key="selected" image="ic_download_hightlight"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0VG-55-E0T">
+                                    <rect key="frame" x="0.0" y="0.0" width="118" height="70"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="0VG-55-E0T" firstAttribute="top" secondItem="Gkb-ds-ql5" secondAttribute="top" id="2Ak-Ns-V1j"/>
+                                <constraint firstAttribute="bottom" secondItem="0VG-55-E0T" secondAttribute="bottom" id="2vM-o1-tfW"/>
+                                <constraint firstItem="rMy-Rr-v0z" firstAttribute="centerX" secondItem="Gkb-ds-ql5" secondAttribute="centerX" id="4gX-pr-wOo"/>
+                                <constraint firstItem="zRE-3R-mye" firstAttribute="centerX" secondItem="Gkb-ds-ql5" secondAttribute="centerX" constant="3" id="SHk-di-krH"/>
+                                <constraint firstAttribute="trailing" secondItem="0VG-55-E0T" secondAttribute="trailing" id="cpz-Hm-5Ir"/>
+                                <constraint firstAttribute="bottom" secondItem="zRE-3R-mye" secondAttribute="bottom" constant="13" id="nch-3n-tp5"/>
+                                <constraint firstItem="rMy-Rr-v0z" firstAttribute="top" secondItem="Gkb-ds-ql5" secondAttribute="top" constant="8" id="rZw-Za-Djy"/>
+                                <constraint firstItem="0VG-55-E0T" firstAttribute="leading" secondItem="Gkb-ds-ql5" secondAttribute="leading" id="sM8-Js-Yc6"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gKA-mQ-chG">
+                            <rect key="frame" x="118" y="0.0" width="118" height="70"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOX-5j-lL2">
+                                    <rect key="frame" x="39.5" y="39" width="39.5" height="18"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSX-ol-RPl">
+                                    <rect key="frame" x="47" y="8" width="24" height="24"/>
+                                    <state key="normal" image="ic_video"/>
+                                    <state key="selected" image="ic_video_hightlight"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n14-04-DSR">
+                                    <rect key="frame" x="0.0" y="0.0" width="118" height="70"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="aSX-ol-RPl" firstAttribute="centerX" secondItem="gKA-mQ-chG" secondAttribute="centerX" id="7dJ-w6-mug"/>
+                                <constraint firstItem="n14-04-DSR" firstAttribute="leading" secondItem="gKA-mQ-chG" secondAttribute="leading" id="CaC-ms-L25"/>
+                                <constraint firstAttribute="bottom" secondItem="n14-04-DSR" secondAttribute="bottom" id="JOy-D7-s8h"/>
+                                <constraint firstAttribute="bottom" secondItem="aOX-5j-lL2" secondAttribute="bottom" constant="13" id="KoY-Kc-gWT"/>
+                                <constraint firstItem="n14-04-DSR" firstAttribute="top" secondItem="gKA-mQ-chG" secondAttribute="top" id="lwE-5V-UyP"/>
+                                <constraint firstAttribute="trailing" secondItem="n14-04-DSR" secondAttribute="trailing" id="oAy-WY-ukB"/>
+                                <constraint firstItem="aOX-5j-lL2" firstAttribute="centerX" secondItem="gKA-mQ-chG" secondAttribute="centerX" id="vys-LP-EKK"/>
+                                <constraint firstItem="aSX-ol-RPl" firstAttribute="top" secondItem="gKA-mQ-chG" secondAttribute="top" constant="8" id="zKq-wc-aIU"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JJZ-rP-LjG">
+                            <rect key="frame" x="236" y="0.0" width="118" height="70"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UtJ-jF-PT5">
+                                    <rect key="frame" x="46.5" y="39" width="31.5" height="18"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYC-rC-zsG">
+                                    <rect key="frame" x="47" y="8" width="24" height="24"/>
+                                    <state key="normal" image="ic_coin"/>
+                                    <state key="selected" image="ic_coin_hightlight"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zce-1k-Wlq">
+                                    <rect key="frame" x="0.0" y="0.0" width="118" height="70"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="UtJ-jF-PT5" secondAttribute="bottom" constant="13" id="7hR-49-dKL"/>
+                                <constraint firstItem="zce-1k-Wlq" firstAttribute="leading" secondItem="JJZ-rP-LjG" secondAttribute="leading" id="KnQ-GA-dfW"/>
+                                <constraint firstItem="zce-1k-Wlq" firstAttribute="top" secondItem="JJZ-rP-LjG" secondAttribute="top" id="Lcz-1I-jue"/>
+                                <constraint firstItem="uYC-rC-zsG" firstAttribute="top" secondItem="JJZ-rP-LjG" secondAttribute="top" constant="8" id="PIY-og-lDS"/>
+                                <constraint firstAttribute="trailing" secondItem="zce-1k-Wlq" secondAttribute="trailing" id="ZsM-QN-T8a"/>
+                                <constraint firstAttribute="bottom" secondItem="zce-1k-Wlq" secondAttribute="bottom" id="dnq-EP-1gV"/>
+                                <constraint firstItem="UtJ-jF-PT5" firstAttribute="centerX" secondItem="JJZ-rP-LjG" secondAttribute="centerX" constant="3" id="p1x-EU-uwN"/>
+                                <constraint firstItem="uYC-rC-zsG" firstAttribute="centerX" secondItem="JJZ-rP-LjG" secondAttribute="centerX" id="zjq-gw-WBb"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="gKA-mQ-chG" firstAttribute="width" secondItem="Gkb-ds-ql5" secondAttribute="width" id="0nW-xa-N38"/>
+                        <constraint firstItem="Gkb-ds-ql5" firstAttribute="top" secondItem="NND-9v-pPO" secondAttribute="top" id="1z3-qT-4tV"/>
+                        <constraint firstAttribute="bottom" secondItem="JJZ-rP-LjG" secondAttribute="bottom" id="CSa-gW-Yda"/>
+                        <constraint firstItem="Gkb-ds-ql5" firstAttribute="leading" secondItem="NND-9v-pPO" secondAttribute="leading" id="OBe-Hw-LR6"/>
+                        <constraint firstItem="JJZ-rP-LjG" firstAttribute="top" secondItem="NND-9v-pPO" secondAttribute="top" id="apF-Ji-9hB"/>
+                        <constraint firstItem="JJZ-rP-LjG" firstAttribute="leading" secondItem="gKA-mQ-chG" secondAttribute="trailing" id="eLo-sD-bKr"/>
+                        <constraint firstAttribute="bottom" secondItem="Gkb-ds-ql5" secondAttribute="bottom" id="ezu-gl-2bA"/>
+                        <constraint firstAttribute="trailing" secondItem="JJZ-rP-LjG" secondAttribute="trailing" id="fra-KI-EE1"/>
+                        <constraint firstItem="gKA-mQ-chG" firstAttribute="top" secondItem="NND-9v-pPO" secondAttribute="top" id="mSE-qC-bYM"/>
+                        <constraint firstItem="JJZ-rP-LjG" firstAttribute="width" secondItem="gKA-mQ-chG" secondAttribute="width" id="oBQ-Rz-sVP"/>
+                        <constraint firstAttribute="bottom" secondItem="gKA-mQ-chG" secondAttribute="bottom" id="vZz-RT-VE8"/>
+                        <constraint firstItem="gKA-mQ-chG" firstAttribute="leading" secondItem="Gkb-ds-ql5" secondAttribute="trailing" id="xXh-3b-T5A"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="35"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="NND-9v-pPO" secondAttribute="trailing" constant="30" id="5Ky-i8-SQ7"/>
+                <constraint firstAttribute="bottom" secondItem="NND-9v-pPO" secondAttribute="bottom" id="Rlo-aJ-Dw2"/>
+                <constraint firstItem="NND-9v-pPO" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="bm5-UU-SoC"/>
+                <constraint firstItem="NND-9v-pPO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qlh-Yc-JeH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-194.20289855072465" y="164.39732142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_coin" width="24" height="24"/>
+        <image name="ic_coin_hightlight" width="32" height="32"/>
+        <image name="ic_download" width="24" height="24"/>
+        <image name="ic_download_hightlight" width="32" height="32"/>
+        <image name="ic_video" width="24" height="24"/>
+        <image name="ic_video_hightlight" width="32" height="32"/>
+    </resources>
+</document>

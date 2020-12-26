@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "30365798578",
+    "firebase_url": "https://tikget-fd170.firebaseio.com",
+    "project_id": "tikget-fd170",
+    "storage_bucket": "tikget-fd170.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30365798578:android:31f245c13a756d2032f9ab",
+        "android_client_info": {
+          "package_name": "com.linkeninc.tikget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30365798578-inhia8e2k6dt67nv6h48grpefch10629.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.linkeninc.tikget",
+            "certificate_hash": "2043b7e55c363aa8bebec80911198e1655383a44"
+          }
+        },
+        {
+          "client_id": "30365798578-q8cunvdj9pkm39419q029h0qh8kmfm1j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.linkeninc.tikget",
+            "certificate_hash": "ad1168e50a3fd31cf5fccf33e55dba6d992054e4"
+          }
+        },
+        {
+          "client_id": "30365798578-hpvgl4uhhdv9q3smqtugm5c88t9pk3pl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU9KEHtkbv9ElnDuo1GEmFM1eCFCIQ_M4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30365798578-hpvgl4uhhdv9q3smqtugm5c88t9pk3pl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30365798578-50u9oa1ehn1sv3l609cck5baq571s41t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.thangnv.TikGet"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-6252372722104773~2113498268"
+    }
+  ],
+  "configuration_version": "1"
+}

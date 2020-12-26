@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    tools:background="@color/black">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivSelected"
+        android:layout_width="@dimen/size_item_user"
+        android:layout_height="@dimen/size_item_user"
+        android:src="@drawable/bg_user_selected"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivUser"
+        android:layout_width="@dimen/size_item_user"
+        android:layout_height="@dimen/size_item_user"
+        android:padding="10dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivUser"
+        android:layout_alignStart="@id/ivUser"
+        android:layout_alignEnd="@id/ivUser"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="1"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        tools:text="aaaaaaaaaa" />
+</RelativeLayout>

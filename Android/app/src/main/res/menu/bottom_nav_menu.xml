@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_download"
+        android:icon="@drawable/ic_download"
+        android:title="@string/title_download" />
+
+    <item
+        android:id="@+id/navigation_video"
+        android:icon="@drawable/ic_video"
+        android:title="@string/title_video" />
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_trending"-->
+<!--        android:icon="@drawable/ic_video"-->
+<!--        android:title="@string/title_trending" />-->
+
+    <item
+        android:id="@+id/navigation_coin"
+        android:icon="@drawable/ic_coin"
+        android:title="@string/title_coin" />
+
+</menu>

@@ -1,0 +1,9 @@
+ib:
+  inputs: TikMate/Application/Main.storyboard
+  outputs:
+    - templateName: scenes-swift4
+      output: TikMate/Generated/Storyboards/Storyboards.swift
+
+
+
+

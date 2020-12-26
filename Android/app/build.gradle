@@ -1,0 +1,91 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        applicationId "com.linkeninc.tikget"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 9
+        versionName "2.1"
+    }
+
+    signingConfigs {
+        defaultConfig {
+            keyAlias "tikget_key"
+            keyPassword "linken"
+            storeFile file('../tikget.keystore')
+            storePassword "linken"
+        }
+        release {
+            keyAlias "tikget_key"
+            keyPassword "linken"
+            storeFile file('../tikget.keystore')
+            storePassword "linken"
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.defaultConfig
+        }
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.3.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.preference:preference-ktx:1.1.1'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    //retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.14.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    //rx
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.4'
+    // jsoup HTML parser library @ https://jsoup.org/
+    implementation 'org.jsoup:jsoup:1.13.1'
+    //billing
+    implementation 'com.android.billingclient:billing:3.0.1'
+    //lottie
+    implementation 'com.airbnb.android:lottie:3.4.1'
+    // Firebase
+    implementation 'com.google.firebase:firebase-config:20.0.1'
+    implementation 'com.google.firebase:firebase-messaging:21.0.0'
+    implementation 'com.google.firebase:firebase-analytics:18.0.0'
+    implementation 'com.google.firebase:firebase-database:19.5.1'
+    implementation 'com.google.firebase:firebase-crashlytics:17.3.0'
+    implementation 'com.google.firebase:firebase-auth:19.3.2'
+    implementation 'com.firebaseui:firebase-ui-auth:6.2.0'
+    // Ads
+    implementation 'com.google.android.gms:play-services-ads:19.5.0'
+    //progress
+    implementation 'com.mikhaellopez:circularprogressbar:3.0.3'
+    //bus
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    implementation 'com.codemybrainsout.rating:ratingdialog:1.0.8'
+}

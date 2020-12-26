@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>android_tikget_interval_download</key>
+        <value>6</value>
+    </entry>
+    <entry>
+        <key>android_tikget_daily_coin</key>
+        <value>1000</value>
+    </entry>
+    <entry>
+        <key>android_tikget_watch_video_reward</key>
+        <value>500</value>
+    </entry>
+    <entry>
+        <key>android_tikget_watch_interstitial</key>
+        <value>250</value>
+    </entry>
+    <entry>
+        <key>android_tikget_random_video_reward</key>
+        <value>150</value>
+    </entry>
+    <entry>
+        <key>android_tikget_consumable_tinypack</key>
+        <value>1200</value>
+    </entry>
+    <entry>
+        <key>android_tikget_consumable_smallpack</key>
+        <value>2800</value>
+    </entry>
+    <entry>
+        <key>android_tikget_consumable_mediumpack</key>
+        <value>8000</value>
+    </entry>
+    <entry>
+        <key>android_tikget_consumable_largepack</key>
+        <value>20000</value>
+    </entry>
+    <entry>
+        <key>android_tikget_consumable_hugepack</key>
+        <value>125000</value>
+    </entry>
+    <entry>
+        <key>android_tikget_download_api_type</key>
+        <value>1</value>
+    </entry>
+</defaultsMap>

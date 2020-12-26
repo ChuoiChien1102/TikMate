@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TikMate' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TikMate
+pod 'IQKeyboardManager', '6.2.1'
+pod 'Kingfisher', '4.10.0'
+pod 'Alamofire', '4.8.2'
+pod 'ObjectMapper', '3.4.2'
+pod 'AlamofireObjectMapper', '5.2.0'
+pod 'Swinject', '2.6.0'
+pod 'FCFileManager'
+pod 'SnapKit', '~> 5.0.0'
+pod 'Then'
+# pod 'SwiftNotificationCenter'
+pod 'JGProgressHUD'
+pod "SwiftRater"
+# pod 'Permission/Notifications'
+# pod 'Permission/Microphone'
+# pod 'Permission/MediaLibrary'
+pod 'SwiftyStoreKit'
+pod 'Firebase/Analytics'
+pod 'Firebase/Auth'
+pod 'Firebase/Core'
+pod 'Firebase/RemoteConfig'
+pod 'Firebase/Database'
+pod 'RealmSwift'
+pod 'FCAlertView', '1.4.0'
+pod 'SDCAlertView'
+pod 'MarqueeLabel'
+pod 'GoogleSignIn'
+pod 'Google-Mobile-Ads-SDK'
+pod 'LGSideMenuController'
+
+end

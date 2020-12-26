@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="size_icon_normal">40dp</dimen>
+    <dimen name="design_bottom_navigation_height" tools:override="true">60dp</dimen>
+    <dimen name="height_logo_home">200dp</dimen>
+    <dimen name="size_loading">120dp</dimen>
+    <dimen name="size_download_progress">100dp</dimen>
+    <dimen name="size_download_progress_item">60dp</dimen>
+    <dimen name="size_background_download_progress">120dp</dimen>
+    <dimen name="size_coin_store">32dp</dimen>
+    <dimen name="size_item_user">80dp</dimen>
+</resources>
