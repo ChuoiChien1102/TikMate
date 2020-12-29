@@ -1,0 +1,63 @@
+/* 
+  File.strings
+  TikMate
+
+  Created by ChuoiChien on 12/29/20.
+  
+*/
+"Sign in with phone" = "Đăng nhập điện thoại";
+"Sign in with Google" = "Đăng nhập Google";
+"Auto Download" = "Tự động Download";
+"Switch Auto Download to download video immediately when open app" = "Chọn để tự động download khi mở ứng dụng";
+"Input URL here" = "Dán link vào đây nhé";
+"Please paste url link !" = "Vui lòng nhập link";
+"Download error!" = "Download lỗi";
+"Can not save video to camera roll !" = "Không thể lưu video vào thư viện ảnh";
+"Privacy policy" = "Chính sách riêng tư";
+"Buy coin" = "Mua coin";
+"How to use" = "Hướng dẫn sử dụng";
+"Share" = "Chia sẻ";
+"Feedback" = "Phản hồi";
+"Rate this app" = "Đánh giá";
+"More app" = "Các app khác";
+"Log out" = "Đăng xuất";
+"Your download videos will appear here. Please see bellow intruction to download videos without any watermask" = "Video download của bạn sẽ xuất hiện ở đây. Hãy xem hướng dẫn để download những video không có logo nhé";
+"How to open download folder" = "Mở nơi chứa download ở đâu";
+"See here" = "Xem";
+"Watch videos (Ads)" = "Xem video quảng cáo";
+"Watch funny videos and earn coins" = "Xem video vui nhộn và kiếm coin";
+"Buy coins" = "Mua coin";
+"Get coin immediately" = "Có coin ngay lập tức";
+"Buy VIP" = "Mua VIP";
+"Ads-free and download unlimited videos" = "Không có quảng cáo và download không giới hạn";
+
+"Alert" = "Thông báo";
+"OK" = "Đồng ý";
+"Close" = "Đóng";
+"Cancle" = "Huỷ";
+"Confirm" = "Thông báo";
+"Do you want to log out?" = "Bạn có muốn đăng xuất?";
+"Ads wasn't ready" = "Không có quảng cáo sẵn sàng";
+"Login failed" = "Đăng nhập lỗi";
+"Can not login by google account" = "Không thể đăng nhập bởi google";
+
+"Warning!" = "Thông báo";
+"You do not have enough coins to download, please:" = "Bạn không đủ coin để download, hãy:";
+"Watch the video (advertisement)" = "Xem video quảng cáo";
+"Buy more coin" = "Mua thêm coin";
+"Or" = "Hoặc";
+
+"Congratulation!" = "Chúc mừng!";
+"Congratulations on having 1000 coins per day, open the app every day to receive coins" = "Chúc mừng bạn có 1000 coin mỗi ngày, mở app mỗi ngày để nhận coin nhé";
+"I understood, pls don't show it again" = "Tôi đã hiểu, đừng nhắc lại";
+
+"GO PREMIUM" = "THÀNH VIÊN VIP";
+"Download unlimited videos without any watermarks" = "Download video không có logo không giới hạn";
+"100% Ads-free" = "100% không quảng cáo";
+"Save your time by multiple downloads" = "Download nhiều video cùng lúc";
+"VIP 1 week" = "VIP 1 tuần";
+"(Free trial 3 days)" = "(Miễn phí dùng thử 3 ngày)";
+"VIP 1 month" = "VIP 1 tháng";
+"(Free trial 5 days)" = "(Miễn phí dùng thử 5 ngày)";
+"VIP 3 month" = "VIP 3 tháng";
+"(Free trial 1 days)" = "(Miễn phí dùng thử 1 ngày)";

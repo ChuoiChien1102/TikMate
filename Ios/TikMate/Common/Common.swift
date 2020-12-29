@@ -13,10 +13,10 @@ import ObjectMapper
 class Common {
     
     static func showAlert(type: kAlertType = .error,
-                          title: String = "Alert",
+                          title: String = R.string.localizable.alert(),
                           content: String,
-                          completeActionTitle: String = "OK",
-                          cancelActionTitle: String = "Close",
+                          completeActionTitle: String = R.string.localizable.oK(),
+                          cancelActionTitle: String = R.string.localizable.close(),
                           showCancelAction: Bool = false,
                           completion: (() -> Void)? = nil,
                           close: (() -> Void)? = nil) {

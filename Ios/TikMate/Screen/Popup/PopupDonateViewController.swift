@@ -8,14 +8,20 @@
 import UIKit
 
 class PopupDonateViewController: BaseViewController {
-
+    @IBOutlet weak var lbTitle: UILabel!
+    @IBOutlet weak var lbContent: UILabel!
+    @IBOutlet weak var lbUnderstand: UILabel!
+    @IBOutlet weak var btnOk: UIButton!
     @IBOutlet weak var btnCheck: UIButton!
     var isCheck = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        lbTitle.text = R.string.localizable.congratulation()
+        lbContent.text = R.string.localizable.congratulationsOnHaving1000CoinsPerDayOpenTheAppEveryDayToReceiveCoins()
+        lbUnderstand.text = R.string.localizable.iUnderstoodPlsDonTShowItAgain()
+        btnOk.setTitle(R.string.localizable.oK(), for: .normal)
     }
     
     @IBAction func clickCheck(_ sender: Any) {

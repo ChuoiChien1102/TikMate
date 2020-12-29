@@ -34,5 +34,6 @@ pod 'MarqueeLabel'
 pod 'GoogleSignIn'
 pod 'Google-Mobile-Ads-SDK'
 pod 'LGSideMenuController'
+pod 'R.swift'
 
 end

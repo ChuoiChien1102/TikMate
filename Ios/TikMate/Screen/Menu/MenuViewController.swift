@@ -53,42 +53,42 @@ extension MenuViewController {
         arrayMenu.append(profile)
         
         let policy = Menu()
-        policy.name = "Privacy policy"
+        policy.name = R.string.localizable.privacyPolicy()
         policy.iconName = "ic_info"
         arrayMenu.append(policy)
         
         let buyCoin = Menu()
-        buyCoin.name = "Buy coin"
+        buyCoin.name = R.string.localizable.buyCoin()
         buyCoin.iconName = "ic_buy_coin"
         arrayMenu.append(buyCoin)
         
         let howToUse = Menu()
-        howToUse.name = "How to use"
+        howToUse.name = R.string.localizable.howToUse()
         howToUse.iconName = "ic_use"
         arrayMenu.append(howToUse)
         
         let share = Menu()
-        share.name = "Share"
+        share.name = R.string.localizable.share()
         share.iconName = "ic_share"
         arrayMenu.append(share)
         
         let feedback = Menu()
-        feedback.name = "Feedback"
+        feedback.name = R.string.localizable.feedback()
         feedback.iconName = "ic_feedback"
         arrayMenu.append(feedback)
         
         let rate = Menu()
-        rate.name = "Rate this app"
+        rate.name = R.string.localizable.rateThisApp()
         rate.iconName = "ic_rate"
         arrayMenu.append(rate)
         
         let moreApp = Menu()
-        moreApp.name = "More app"
+        moreApp.name = R.string.localizable.moreApp()
         moreApp.iconName = "ic_more_app"
         arrayMenu.append(moreApp)
         
         let logout = Menu()
-        logout.name = "Log out"
+        logout.name = R.string.localizable.logOut()
         logout.iconName = "ic_logout"
         arrayMenu.append(logout)
     }
@@ -174,7 +174,7 @@ extension MenuViewController: UITableViewDataSource, UITableViewDelegate {
             break
         case 8:
             // log out
-            Common.showAlert(type: kAlertType.warning, title: "Confirm", content: "Do you want to log out?", completeActionTitle: "OK", cancelActionTitle: "Cancle", showCancelAction: true) {
+            Common.showAlert(type: kAlertType.warning, title: R.string.localizable.confirm(), content: R.string.localizable.doYouWantToLogOut(), completeActionTitle: R.string.localizable.oK(), cancelActionTitle: R.string.localizable.cancle(), showCancelAction: true) {
                 self.logout()
             } close: {
                 

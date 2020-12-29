@@ -40,21 +40,21 @@ class TabCoinViewController: BaseViewController {
         tableView.dataSource = self
         
         let watch = CoinMenu()
-        watch.name = "Watch videos (Ads)"
+        watch.name = R.string.localizable.watchVideosAds()
         watch.iconName = "ic_info"
-        watch.detail = "Watch funny videos and earn coins"
+        watch.detail = R.string.localizable.watchFunnyVideosAndEarnCoins()
         arrayMenu.append(watch)
         
         let buyCoin = CoinMenu()
-        buyCoin.name = "Buy coins"
+        buyCoin.name = R.string.localizable.buyCoin()
         buyCoin.iconName = "ic_buy_coin"
-        buyCoin.detail = "Get coin immediately"
+        buyCoin.detail = R.string.localizable.getCoinImmediately()
         arrayMenu.append(buyCoin)
         
         let buyVip = CoinMenu()
-        buyVip.name = "Buy VIP"
+        buyVip.name = R.string.localizable.buyVIP()
         buyVip.iconName = "ic_use"
-        buyVip.detail = "Ads-free and download unlimited videos"
+        buyVip.detail = R.string.localizable.adsFreeAndDownloadUnlimitedVideos()
         arrayMenu.append(buyVip)
         
         // add ads
@@ -129,7 +129,7 @@ extension TabCoinViewController: UITableViewDataSource, UITableViewDelegate {
                 if interstitial.isReady {
                     interstitial.present(fromRootViewController: self)
                 } else {
-                    Common.showAlert(content: "Ads wasn't ready")
+                    Common.showAlert(content: R.string.localizable.adsWasnTReady())
                 }
             }
             break

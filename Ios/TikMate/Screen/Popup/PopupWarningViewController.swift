@@ -9,12 +9,27 @@ import UIKit
 import GoogleMobileAds
 
 class PopupWarningViewController: BaseViewController {
+    
+    @IBOutlet weak var lbTitle: UILabel!
+    @IBOutlet weak var lbContent: UILabel!
+    @IBOutlet weak var lbOr: UILabel!
+    @IBOutlet weak var btnWatchAds: UIButton!
+    @IBOutlet weak var btnBuyCoin: UIButton!
+    @IBOutlet weak var btnOk: UIButton!
+
     var rewardedAd: GADRewardedAd?
     var interstitial: GADInterstitial!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        lbTitle.text = R.string.localizable.warning()
+        lbContent.text = R.string.localizable.youDoNotHaveEnoughCoinsToDownloadPlease()
+        btnWatchAds.setTitle(R.string.localizable.watchTheVideoAdvertisement(), for: .normal)
+        lbOr.text = R.string.localizable.or()
+        btnBuyCoin.setTitle(R.string.localizable.buyMoreCoin(), for: .normal)
+        btnOk.setTitle(R.string.localizable.oK(), for: .normal)
+        
         rewardedAd = GADRewardedAd(adUnitID: App.REWARD_ADS_ID_TEST)
         rewardedAd?.load(GADRequest()) { error in
             if let error = error {
@@ -35,7 +50,7 @@ class PopupWarningViewController: BaseViewController {
             if interstitial.isReady {
                 interstitial.present(fromRootViewController: self)
             } else {
-                Common.showAlert(content: "Ads wasn't ready")
+                Common.showAlert(content: R.string.localizable.adsWasnTReady())
             }
         }
     }

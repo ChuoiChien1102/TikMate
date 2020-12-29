@@ -18,6 +18,8 @@ class TabVideoViewController: BaseViewController {
     @IBOutlet weak var imgRightBar: UIImageView!
     @IBOutlet weak var lbCoin: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var lbGuide: UILabel!
+    @IBOutlet weak var btnSeeHere: UIButton!
     
     var listVideo = [VideoModel]()
     
@@ -30,6 +32,9 @@ class TabVideoViewController: BaseViewController {
         // Do any additional setup after loading the view.
         NotificationCenter.default.addObserver(self, selector: #selector(createVideoSuccess(_:)), name: NSNotification.Name(rawValue: NotificationCenterName.createVideoSuccess), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(deleteVideoSuccess(_:)), name: NSNotification.Name(rawValue: NotificationCenterName.deleteVideoSuccess), object: nil)
+        
+        lbGuide.text = R.string.localizable.howToOpenDownloadFolder()
+        btnSeeHere.setTitle(R.string.localizable.seeHere(), for: .normal)
         
         updateUI()
         DatabaseFireBaseManager.shared.fetchData {

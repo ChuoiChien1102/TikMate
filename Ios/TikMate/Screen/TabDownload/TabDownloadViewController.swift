@@ -42,6 +42,11 @@ class TabDownloadViewController: BaseViewController {
         } else {
             
         }
+        
+        lbIntroDownload.text = R.string.localizable.switchAutoDownloadToDownloadVideoImmediatelyWhenOpenApp()
+        lbAutoDownload.text = R.string.localizable.autoDownload()
+        txtInput.placeholder = R.string.localizable.inputURLHere()
+        
         indicator.isHidden = true
         updateUI()
         DatabaseFireBaseManager.shared.fetchData {
@@ -83,7 +88,7 @@ class TabDownloadViewController: BaseViewController {
     
     @IBAction func clickDownload(_ sender: Any) {
         guard txtInput.text != "" else {
-            Common.showAlert(type: kAlertType.warning, title: "", content: "Please paste url link !", completeActionTitle: "OK", cancelActionTitle: "", showCancelAction: false, completion: nil, close: nil)
+            Common.showAlert(type: kAlertType.warning, title: "", content: R.string.localizable.pleasePasteUrlLink(), completeActionTitle: "OK", cancelActionTitle: "", showCancelAction: false, completion: nil, close: nil)
             return
         }
         if (UserModel.share.isVip == false) && Int(UserModel.share.coin)! < CoinConfig.downloadSuccess {
@@ -211,7 +216,7 @@ extension TabDownloadViewController {
                 
                 self.downloadVideo(video: video)
             } else {
-                Common.showAlert(content: "Download error!")
+                Common.showAlert(content: R.string.localizable.downloadError())
             }
         }
     }
@@ -231,7 +236,7 @@ extension TabDownloadViewController {
                     }
                 } else {
                     DispatchQueue.main.async {
-                        Common.showAlert(content: "Can not save video to camera roll !")
+                        Common.showAlert(content: R.string.localizable.canNotSaveVideoToCameraRoll())
                     }
                 }
             }
@@ -255,7 +260,7 @@ extension TabDownloadViewController {
                 
                 self.downloadVideoVip(video: video)
             } else {
-                Common.showAlert(content: "Download error!")
+                Common.showAlert(content: R.string.localizable.downloadError())
             }
         }
     }
@@ -276,7 +281,7 @@ extension TabDownloadViewController {
                     }
                 } else {
                     DispatchQueue.main.async {
-                        Common.showAlert(content: "Can not save video to camera roll !")
+                        Common.showAlert(content: R.string.localizable.canNotSaveVideoToCameraRoll())
                     }
                 }
             }

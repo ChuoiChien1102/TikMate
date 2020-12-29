@@ -68,6 +68,8 @@
 		15DFD517258DB70D00AA0D82 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DFD515258DB70D00AA0D82 /* VideoCollectionViewCell.swift */; };
 		15DFD518258DB70D00AA0D82 /* VideoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15DFD516258DB70D00AA0D82 /* VideoCollectionViewCell.xib */; };
 		15E96648259330820077DD84 /* PopupWarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E96647259330820077DD84 /* PopupWarningViewController.swift */; };
+		15F66222259B45680091F7A9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15F66224259B45680091F7A9 /* Localizable.strings */; };
+		15F6628E259B48F90091F7A9 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F6628D259B48F90091F7A9 /* R.generated.swift */; };
 		15F8A3272591963D00667CFD /* CoinMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F8A3252591963D00667CFD /* CoinMenuTableViewCell.swift */; };
 		15F8A3282591963D00667CFD /* CoinMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F8A3262591963D00667CFD /* CoinMenuTableViewCell.xib */; };
 		45306E14164CBA12C9FC6F19 /* Pods_TikMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CC8971FC4C08761C18AC86 /* Pods_TikMate.framework */; };
@@ -138,6 +140,9 @@
 		15DFD515258DB70D00AA0D82 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
 		15DFD516258DB70D00AA0D82 /* VideoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCollectionViewCell.xib; sourceTree = "<group>"; };
 		15E96647259330820077DD84 /* PopupWarningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupWarningViewController.swift; sourceTree = "<group>"; };
+		15F66223259B45680091F7A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		15F66226259B45750091F7A9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		15F6628D259B48F90091F7A9 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		15F8A3252591963D00667CFD /* CoinMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMenuTableViewCell.swift; sourceTree = "<group>"; };
 		15F8A3262591963D00667CFD /* CoinMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinMenuTableViewCell.xib; sourceTree = "<group>"; };
 		79B012CABB69354665BBAA11 /* Pods-TikMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikMate.debug.xcconfig"; path = "Target Support Files/Pods-TikMate/Pods-TikMate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -261,6 +266,7 @@
 		1590831A2587B5C2002299BA /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				15F6628D259B48F90091F7A9 /* R.generated.swift */,
 				1590831B2587B5C2002299BA /* Storyboards */,
 			);
 			path = Generated;
@@ -278,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				1590831E2587B5C2002299BA /* Assets.xcassets */,
+				15F66224259B45680091F7A9 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -499,6 +506,7 @@
 				155D01C42587AF6C00793D88 /* Resources */,
 				BF4CCDFD2EE787D1669EAC32 /* [CP] Embed Pods Frameworks */,
 				054710ECBB91AEEF8C918504 /* [CP] Copy Pods Resources */,
+				15F6628B259B47DA0091F7A9 /* Rswift */,
 			);
 			buildRules = (
 			);
@@ -529,6 +537,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				vi,
 				Base,
 			);
 			mainGroup = 155D01BD2587AF6C00793D88;
@@ -550,6 +559,7 @@
 				1590830E2587B5B2002299BA /* Main.storyboard in Resources */,
 				15B864C22589114700067071 /* TabBarView.xib in Resources */,
 				15F8A3282591963D00667CFD /* CoinMenuTableViewCell.xib in Resources */,
+				15F66222259B45680091F7A9 /* Localizable.strings in Resources */,
 				159082FB2587B1DA002299BA /* swiftgen.yml in Resources */,
 				1590830D2587B5B2002299BA /* LaunchScreen.storyboard in Resources */,
 				15928EA6258F5AD2005A21A0 /* ProfileTableViewCell.xib in Resources */,
@@ -578,6 +588,26 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TikMate/Pods-TikMate-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		15F6628B259B47DA0091F7A9 /* Rswift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = Rswift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/$TARGET_NAME/generated/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/$TARGET_NAME/generated/R.generated.swift\"\n";
 		};
 		738F34370A7E42C52BA95877 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -672,6 +702,7 @@
 				157DA2B92591EE2800587BB5 /* RemoteConfigManager.swift in Sources */,
 				1590837A2587BD11002299BA /* UINavigationController+Extention.swift in Sources */,
 				15928EA7258F5AD2005A21A0 /* MenuTableViewCell.swift in Sources */,
+				15F6628E259B48F90091F7A9 /* R.generated.swift in Sources */,
 				159083372587B64E002299BA /* Container+.swift in Sources */,
 				159083BB2587BF0F002299BA /* ApiSevice.swift in Sources */,
 				15DFD510258CAD9100AA0D82 /* Common.swift in Sources */,
@@ -682,6 +713,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15F66224259B45680091F7A9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15F66223259B45680091F7A9 /* en */,
+				15F66226259B45750091F7A9 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		155D01EE2587AF6D00793D88 /* Debug */ = {

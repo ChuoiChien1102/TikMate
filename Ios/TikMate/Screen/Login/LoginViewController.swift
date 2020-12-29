@@ -12,10 +12,15 @@ import LGSideMenuController
 
 class LoginViewController: BaseViewController {
     
+    @IBOutlet weak var lbSignInPhone: UILabel!
+    @IBOutlet weak var lbSignInGoogle: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        lbSignInPhone.text = R.string.localizable.signInWithPhone()
+        lbSignInGoogle.text = R.string.localizable.signInWithGoogle()
         
         // clientID get from file GoogleService-Info.plist
         GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
@@ -57,14 +62,14 @@ extension LoginViewController: GIDSignInDelegate {
                 print("\(error.localizedDescription)")
             }
             LoadingManager.hide()
-            Common.showAlert(content: "Login failed")
+            Common.showAlert(content: R.string.localizable.loginFailed())
             return
         }
         
         // Get credential object using Google ID token and Google access token
         guard let authentication = user.authentication else {
             LoadingManager.hide()
-            Common.showAlert(content: "Login failed")
+            Common.showAlert(content: R.string.localizable.loginFailed())
             return
         }
         
@@ -106,6 +111,6 @@ extension LoginViewController: GIDSignInDelegate {
     func sign(_ signIn: GIDSignIn!, didDisconnectWith user: GIDGoogleUser!,
               withError error: Error!) {
         LoadingManager.hide()
-        Common.showAlert(content: "Can not login by google account")
+        Common.showAlert(content: R.string.localizable.canNotLoginByGoogleAccount())
     }
 }

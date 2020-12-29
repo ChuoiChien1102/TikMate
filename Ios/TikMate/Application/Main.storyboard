@@ -122,6 +122,10 @@
                             <constraint firstItem="rwJ-Y9-F6k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t1e-X3-PRr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lbSignInGoogle" destination="hib-Wu-xSm" id="Sk4-XM-UBV"/>
+                        <outlet property="lbSignInPhone" destination="JfA-Dw-iJs" id="EhY-bn-A1u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -471,7 +475,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your download videos will appear here. Please see bellow intruction to download videos without any watermask" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKr-qm-ifG">
-                                                        <rect key="frame" x="5" y="140" width="414" height="61"/>
+                                                        <rect key="frame" x="5" y="140" width="404" height="61"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -483,7 +487,7 @@
                                                     <constraint firstItem="chx-CF-dlS" firstAttribute="top" secondItem="qt0-7r-jmw" secondAttribute="top" constant="20" id="IFh-mj-WED"/>
                                                     <constraint firstAttribute="height" constant="300" id="chp-cp-Rmo"/>
                                                     <constraint firstItem="PKr-qm-ifG" firstAttribute="leading" secondItem="qt0-7r-jmw" secondAttribute="leading" constant="5" id="fGb-JW-hCm"/>
-                                                    <constraint firstAttribute="trailing" secondItem="PKr-qm-ifG" secondAttribute="trailing" constant="-5" id="fqx-S3-ySp"/>
+                                                    <constraint firstAttribute="trailing" secondItem="PKr-qm-ifG" secondAttribute="trailing" constant="5" id="fqx-S3-ySp"/>
                                                     <constraint firstItem="chx-CF-dlS" firstAttribute="centerX" secondItem="qt0-7r-jmw" secondAttribute="centerX" id="qf0-jf-Ddu"/>
                                                 </constraints>
                                             </view>
@@ -751,10 +755,12 @@
                     </view>
                     <connections>
                         <outlet property="bannerView" destination="1kr-ZY-yCE" id="yPf-OU-Bq7"/>
+                        <outlet property="btnSeeHere" destination="2cY-vs-crM" id="cdX-c7-tHM"/>
                         <outlet property="collectionView" destination="Khg-RD-rDk" id="TMv-GU-hPq"/>
                         <outlet property="heightContraintBannerView" destination="zCG-9h-JMW" id="xc5-Ym-aTE"/>
                         <outlet property="imgRightBar" destination="Xo9-Oi-HM7" id="vqw-bp-c4U"/>
                         <outlet property="lbCoin" destination="j4w-uH-kHT" id="2ac-sO-5oM"/>
+                        <outlet property="lbGuide" destination="M7c-pM-Fk0" id="A58-Z7-N5U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DLI-gK-bhs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -933,6 +939,10 @@
                     </view>
                     <connections>
                         <outlet property="btnCheck" destination="Od1-xV-ll8" id="AVh-AA-WP6"/>
+                        <outlet property="btnOk" destination="YxE-tw-mBA" id="zoh-e3-L4O"/>
+                        <outlet property="lbContent" destination="fjp-zf-Vcu" id="82U-ab-is2"/>
+                        <outlet property="lbTitle" destination="CqU-e8-jfL" id="qn9-TY-ujj"/>
+                        <outlet property="lbUnderstand" destination="6qf-tJ-qeU" id="JPP-Cr-2Yn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1T4-0e-npH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1115,6 +1125,14 @@
                             <constraint firstItem="Yfd-ZL-OrF" firstAttribute="leading" secondItem="sfL-dT-Tjz" secondAttribute="leading" constant="30" id="oKh-Hy-Tx7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnBuyCoin" destination="6lB-IH-FGx" id="Btm-HD-7Iy"/>
+                        <outlet property="btnOk" destination="5KD-mG-2Em" id="Er0-eS-3HW"/>
+                        <outlet property="btnWatchAds" destination="pDM-8k-sti" id="Dx1-JZ-5jO"/>
+                        <outlet property="lbContent" destination="veS-R7-NNq" id="I7u-xp-kUC"/>
+                        <outlet property="lbOr" destination="uXu-Ph-sJa" id="tT7-ge-BHG"/>
+                        <outlet property="lbTitle" destination="Qgv-ci-pnK" id="vH2-Ct-k34"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AMx-Li-tsV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1636,6 +1654,7 @@
                         <outlet property="btnMedium" destination="BaY-H6-yKl" id="VGk-Gw-YjK"/>
                         <outlet property="btnSmall" destination="7TT-9b-gyh" id="k56-fr-tyb"/>
                         <outlet property="btnTiny" destination="JL7-RG-iPd" id="hhl-dH-6zw"/>
+                        <outlet property="lbTitle" destination="eKk-Ag-GGl" id="HkO-AJ-tHT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="58z-5i-QDR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2056,9 +2075,21 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="btnRestore" destination="Ux8-a8-woc" id="8WR-Co-vDV"/>
                         <outlet property="btnVip1Month" destination="a5i-7D-e7L" id="Zhp-hD-tAp"/>
                         <outlet property="btnVip1Week" destination="QHK-8g-7eO" id="UG4-hD-eMf"/>
                         <outlet property="btnVip3Month" destination="ipy-hg-HyR" id="zMQ-yQ-jU7"/>
+                        <outlet property="lbGoPremium" destination="wsg-UA-AVY" id="I2P-0h-7PD"/>
+                        <outlet property="lbIntro1" destination="eEE-h9-d0N" id="Hw5-ip-8KQ"/>
+                        <outlet property="lbIntro2" destination="EaC-uy-VNp" id="4GG-kP-Eb9"/>
+                        <outlet property="lbIntro3" destination="mvg-TY-mCE" id="WNU-tS-Awu"/>
+                        <outlet property="lbIntroVip1Month" destination="Had-F8-yov" id="Jvm-cN-3HY"/>
+                        <outlet property="lbIntroVip1Week" destination="lZb-1h-bMd" id="Lhj-VZ-fBL"/>
+                        <outlet property="lbIntroVip3Month" destination="Q3r-1v-T3I" id="mH1-wf-yK1"/>
+                        <outlet property="lbTitle" destination="9jL-lu-aNB" id="Tt6-BC-Nln"/>
+                        <outlet property="lbVip1Month" destination="Qqh-Kz-N1K" id="Nxt-Ke-gyB"/>
+                        <outlet property="lbVip1Week" destination="98s-b7-LMy" id="W4v-dD-kDz"/>
+                        <outlet property="lbVip3Month" destination="FcK-a6-TiA" id="oCQ-1a-ab3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hUS-ou-a8U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -13,11 +13,13 @@ class BuyCoinViewController: UIViewController {
     @IBOutlet weak var btnMedium: UIButton!
     @IBOutlet weak var btnLarge: UIButton!
     @IBOutlet weak var btnHuge: UIButton!
+    @IBOutlet weak var lbTitle: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        lbTitle.text = R.string.localizable.buyCoin()
         getProductInfo()
     }
     

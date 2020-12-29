@@ -9,6 +9,20 @@ import UIKit
 
 class BuyVipViewController: UIViewController {
 
+    @IBOutlet weak var lbTitle: UILabel!
+    @IBOutlet weak var btnRestore: UIButton!
+    @IBOutlet weak var lbGoPremium: UILabel!
+    @IBOutlet weak var lbIntro1: UILabel!
+    @IBOutlet weak var lbIntro2: UILabel!
+    @IBOutlet weak var lbIntro3: UILabel!
+    
+    @IBOutlet weak var lbVip1Week: UILabel!
+    @IBOutlet weak var lbIntroVip1Week: UILabel!
+    @IBOutlet weak var lbVip1Month: UILabel!
+    @IBOutlet weak var lbIntroVip1Month: UILabel!
+    @IBOutlet weak var lbVip3Month: UILabel!
+    @IBOutlet weak var lbIntroVip3Month: UILabel!
+    
     @IBOutlet weak var btnVip1Week: UIButton!
     @IBOutlet weak var btnVip1Month: UIButton!
     @IBOutlet weak var btnVip3Month: UIButton!
@@ -16,6 +30,18 @@ class BuyVipViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        lbTitle.text = R.string.localizable.buyVIP()
+        lbGoPremium.text = R.string.localizable.gopremiuM()
+        lbIntro1.text = R.string.localizable.downloadUnlimitedVideosWithoutAnyWatermarks()
+        lbIntro2.text = R.string.localizable.adsFree()
+        lbIntro3.text = R.string.localizable.saveYourTimeByMultipleDownloads()
+        lbVip1Week.text = R.string.localizable.vip1Week()
+        lbIntroVip1Week.text = R.string.localizable.freeTrial3Days()
+        lbVip1Month.text = R.string.localizable.vip1Month()
+        lbIntroVip1Month.text = R.string.localizable.freeTrial5Days()
+        lbVip3Month.text = R.string.localizable.vip3Month()
+        lbIntroVip3Month.text = R.string.localizable.freeTrial1Days()
+        
         getProductInfo()
     }
     

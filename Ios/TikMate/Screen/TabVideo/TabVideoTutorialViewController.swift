@@ -39,6 +39,8 @@ class TabVideoTutorialViewController: BaseViewController {
             
         }
         
+        lbIntro.text = R.string.localizable.yourDownloadVideosWillAppearHerePleaseSeeBellowIntructionToDownloadVideosWithoutAnyWatermask()
+        
         updateUI()
         DatabaseFireBaseManager.shared.fetchData {
             // update UI
