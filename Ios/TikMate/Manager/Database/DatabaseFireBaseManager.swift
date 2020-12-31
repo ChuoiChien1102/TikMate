@@ -40,7 +40,7 @@ class DatabaseFireBaseManager: NSObject {
     }
     func createUserFirebase() -> Void {
         var dict = [String: Any]()
-        dict["coin"] = FIRRemoteConfig.shared.ios_tikmate_daily_coin
+        dict["coin"] = Int(FIRRemoteConfig.shared.ios_tikmate_daily_coin)
         dict["last_online"] = Common.getStringFromDate()
         dict["vip"] = false
         rootRef.child(UserModel.share.userId).setValue(dict)
