@@ -11,6 +11,8 @@ class TutorialViewController: BaseViewController {
     
     @IBOutlet weak var heightContraintView2: NSLayoutConstraint!
     @IBOutlet weak var heightContraintView3: NSLayoutConstraint!
+    @IBOutlet weak var imgTutorial1: UIImageView!
+    @IBOutlet weak var imgTutorial2: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +33,8 @@ class TutorialViewController: BaseViewController {
         } else {
             
         }
+        imgTutorial1.image = R.image.tutorial_1()
+        imgTutorial2.image = R.image.tutorial_2()
     }
     
     @IBAction func close(_ sender: Any) {        appDelegate?.rootViewController.dismissModalyWithoutAnimate(self, completion: nil)

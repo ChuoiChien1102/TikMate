@@ -14,10 +14,67 @@
       "filename" : "btn_paste@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
+    },
+    {
+      "filename" : "btn_paste-1.png",
+      "idiom" : "universal",
+      "locale" : "zh-Hant",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "btn_paste-2.png",
+      "idiom" : "universal",
+      "locale" : "zh-Hant",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "btn_paste-3.png",
+      "idiom" : "universal",
+      "locale" : "zh-Hant",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "btn_paste-4.png",
+      "idiom" : "universal",
+      "locale" : "en",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "btn_paste-5.png",
+      "idiom" : "universal",
+      "locale" : "en",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "btn_paste-6.png",
+      "idiom" : "universal",
+      "locale" : "en",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "btn_paste-7.png",
+      "idiom" : "universal",
+      "locale" : "vi",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "btn_paste-8.png",
+      "idiom" : "universal",
+      "locale" : "vi",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "btn_paste-9.png",
+      "idiom" : "universal",
+      "locale" : "vi",
+      "scale" : "3x"
     }
   ],
   "info" : {
     "author" : "xcode",
     "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
   }
 }

@@ -20,6 +20,8 @@ class TabDownloadViewController: BaseViewController {
     @IBOutlet weak var lbAutoDownload: UILabel!
     @IBOutlet weak var inputLinkView: UIView!
     @IBOutlet weak var txtInput: UITextField!
+    @IBOutlet weak var btnPaste: UIButton!
+    @IBOutlet weak var btnDownload: UIButton!
     
     @IBOutlet weak var bottomContanstViewAds: NSLayoutConstraint!
     @IBOutlet weak var viewCenterCenterYContraint: NSLayoutConstraint!
@@ -46,6 +48,8 @@ class TabDownloadViewController: BaseViewController {
         lbIntroDownload.text = R.string.localizable.switchAutoDownloadToDownloadVideoImmediatelyWhenOpenApp()
         lbAutoDownload.text = R.string.localizable.autoDownload()
         txtInput.placeholder = R.string.localizable.inputURLHere()
+        btnDownload.setImage(R.image.btn_down(), for: .normal)
+        btnPaste.setImage(R.image.btn_paste(), for: .normal)
         
         indicator.isHidden = true
         updateUI()

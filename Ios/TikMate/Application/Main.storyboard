@@ -344,6 +344,8 @@
                     <connections>
                         <outlet property="bannerView" destination="iSV-DO-qHx" id="zqq-P2-T3i"/>
                         <outlet property="bottomContanstViewAds" destination="vX0-ik-bE0" id="gnd-zx-Cfe"/>
+                        <outlet property="btnDownload" destination="4Wx-SY-6pE" id="4ba-pG-uKe"/>
+                        <outlet property="btnPaste" destination="fI6-gu-E2v" id="yEP-RI-1eH"/>
                         <outlet property="heightContraintBannerView" destination="bFs-T7-8VR" id="GyO-z6-UBR"/>
                         <outlet property="imgRightBar" destination="Cxg-vj-w4o" id="P4i-Iu-zqP"/>
                         <outlet property="indicator" destination="eok-BN-ezE" id="WmM-Ij-AGO"/>
@@ -613,6 +615,8 @@
                         <outlet property="heightContraintView2" destination="ggX-Vl-66j" id="DWQ-6e-jHh"/>
                         <outlet property="heightContraintView3" destination="igB-IV-d0D" id="QhX-4C-LPb"/>
                         <outlet property="imgRightBar" destination="arb-sl-4dX" id="G8T-Ov-MEv"/>
+                        <outlet property="imgTutorial1" destination="Xyb-k8-qQT" id="Nkq-FD-732"/>
+                        <outlet property="imgTutorial2" destination="JPs-o7-b4l" id="CzW-lW-nZP"/>
                         <outlet property="lbCoin" destination="CGQ-MH-Y4c" id="7fK-4d-y0b"/>
                         <outlet property="lbIntro" destination="PKr-qm-ifG" id="3QE-62-QZY"/>
                     </connections>
@@ -1232,6 +1236,8 @@
                     <connections>
                         <outlet property="heightContraintView2" destination="y4n-Tg-PRr" id="dd8-GF-A4o"/>
                         <outlet property="heightContraintView3" destination="vth-kl-Jgk" id="l7G-N4-fih"/>
+                        <outlet property="imgTutorial1" destination="vqZ-WJ-XfR" id="OVp-2c-P6e"/>
+                        <outlet property="imgTutorial2" destination="q6u-Ec-6oA" id="UbN-g0-Oha"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zfc-0T-n7g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

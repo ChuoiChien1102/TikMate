@@ -631,218 +631,218 @@ struct R: Rswift.Validatable {
   struct string {
     /// This `R.string.localizable` struct is generated, and contains static references to 52 localization keys.
     struct localizable {
-      /// en translation: (Miễn phí dùng thử 1 ngày)
+      /// en translation: (Free trial 1 days)
       ///
-      /// Locales: en
-      static let freeTrial1Days = Rswift.StringResource(key: "(Free trial 1 days)", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: (Miễn phí dùng thử 3 ngày)
+      /// Locales: en, zh-Hant, vi
+      static let freeTrial1Days = Rswift.StringResource(key: "(Free trial 1 days)", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: (Free trial 3 days)
       ///
-      /// Locales: en
-      static let freeTrial3Days = Rswift.StringResource(key: "(Free trial 3 days)", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: (Miễn phí dùng thử 5 ngày)
+      /// Locales: en, zh-Hant, vi
+      static let freeTrial3Days = Rswift.StringResource(key: "(Free trial 3 days)", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: (Free trial 5 days)
       ///
-      /// Locales: en
-      static let freeTrial5Days = Rswift.StringResource(key: "(Free trial 5 days)", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: 100% không quảng cáo
+      /// Locales: en, zh-Hant, vi
+      static let freeTrial5Days = Rswift.StringResource(key: "(Free trial 5 days)", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: 100% Ads-free
       ///
-      /// Locales: en
-      static let adsFree = Rswift.StringResource(key: "100% Ads-free", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Bạn có muốn đăng xuất?
+      /// Locales: en, zh-Hant, vi
+      static let adsFree = Rswift.StringResource(key: "100% Ads-free", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Ads wasn't ready
       ///
-      /// Locales: en
-      static let doYouWantToLogOut = Rswift.StringResource(key: "Do you want to log out?", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Bạn không đủ coin để download, hãy:
+      /// Locales: en, zh-Hant, vi
+      static let adsWasnTReady = Rswift.StringResource(key: "Ads wasn't ready", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Ads-free and download unlimited videos
       ///
-      /// Locales: en
-      static let youDoNotHaveEnoughCoinsToDownloadPlease = Rswift.StringResource(key: "You do not have enough coins to download, please:", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Chia sẻ
+      /// Locales: en, zh-Hant, vi
+      static let adsFreeAndDownloadUnlimitedVideos = Rswift.StringResource(key: "Ads-free and download unlimited videos", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Alert
       ///
-      /// Locales: en
-      static let share = Rswift.StringResource(key: "Share", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Chính sách riêng tư
+      /// Locales: en, zh-Hant, vi
+      static let alert = Rswift.StringResource(key: "Alert", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Auto Download
       ///
-      /// Locales: en
-      static let privacyPolicy = Rswift.StringResource(key: "Privacy policy", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Chúc mừng bạn có 1000 coin mỗi ngày, mở app mỗi ngày để nhận coin nhé
+      /// Locales: en, zh-Hant, vi
+      static let autoDownload = Rswift.StringResource(key: "Auto Download", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Buy VIP
       ///
-      /// Locales: en
-      static let congratulationsOnHaving1000CoinsPerDayOpenTheAppEveryDayToReceiveCoins = Rswift.StringResource(key: "Congratulations on having 1000 coins per day, open the app every day to receive coins", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Chúc mừng!
+      /// Locales: en, zh-Hant, vi
+      static let buyVIP = Rswift.StringResource(key: "Buy VIP", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Buy coin
       ///
-      /// Locales: en
-      static let congratulation = Rswift.StringResource(key: "Congratulation!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Chọn để tự động download khi mở ứng dụng
+      /// Locales: en, zh-Hant, vi
+      static let buyCoin = Rswift.StringResource(key: "Buy coin", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Buy coins
       ///
-      /// Locales: en
-      static let switchAutoDownloadToDownloadVideoImmediatelyWhenOpenApp = Rswift.StringResource(key: "Switch Auto Download to download video immediately when open app", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Các app khác
+      /// Locales: en, zh-Hant, vi
+      static let buyCoins = Rswift.StringResource(key: "Buy coins", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Buy more coin
       ///
-      /// Locales: en
-      static let moreApp = Rswift.StringResource(key: "More app", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Có coin ngay lập tức
+      /// Locales: en, zh-Hant, vi
+      static let buyMoreCoin = Rswift.StringResource(key: "Buy more coin", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Can not login by google account
       ///
-      /// Locales: en
-      static let getCoinImmediately = Rswift.StringResource(key: "Get coin immediately", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Download lỗi
+      /// Locales: en, zh-Hant, vi
+      static let canNotLoginByGoogleAccount = Rswift.StringResource(key: "Can not login by google account", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Can not save video to camera roll !
       ///
-      /// Locales: en
-      static let downloadError = Rswift.StringResource(key: "Download error!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Download nhiều video cùng lúc
+      /// Locales: en, zh-Hant, vi
+      static let canNotSaveVideoToCameraRoll = Rswift.StringResource(key: "Can not save video to camera roll !", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Cancle
       ///
-      /// Locales: en
-      static let saveYourTimeByMultipleDownloads = Rswift.StringResource(key: "Save your time by multiple downloads", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Download video không có logo không giới hạn
+      /// Locales: en, zh-Hant, vi
+      static let cancle = Rswift.StringResource(key: "Cancle", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Close
       ///
-      /// Locales: en
-      static let downloadUnlimitedVideosWithoutAnyWatermarks = Rswift.StringResource(key: "Download unlimited videos without any watermarks", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Dán link vào đây nhé
+      /// Locales: en, zh-Hant, vi
+      static let close = Rswift.StringResource(key: "Close", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Confirm
       ///
-      /// Locales: en
-      static let inputURLHere = Rswift.StringResource(key: "Input URL here", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Hoặc
+      /// Locales: en, zh-Hant, vi
+      static let confirm = Rswift.StringResource(key: "Confirm", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Congratulation!
       ///
-      /// Locales: en
-      static let or = Rswift.StringResource(key: "Or", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Huỷ
+      /// Locales: en, zh-Hant, vi
+      static let congratulation = Rswift.StringResource(key: "Congratulation!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Congratulations on having 1000 coins per day, open the app every day to receive coins
       ///
-      /// Locales: en
-      static let cancle = Rswift.StringResource(key: "Cancle", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Hướng dẫn sử dụng
+      /// Locales: en, zh-Hant, vi
+      static let congratulationsOnHaving1000CoinsPerDayOpenTheAppEveryDayToReceiveCoins = Rswift.StringResource(key: "Congratulations on having 1000 coins per day, open the app every day to receive coins", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Do you want to log out?
       ///
-      /// Locales: en
-      static let howToUse = Rswift.StringResource(key: "How to use", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Không có quảng cáo sẵn sàng
+      /// Locales: en, zh-Hant, vi
+      static let doYouWantToLogOut = Rswift.StringResource(key: "Do you want to log out?", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Download error!
       ///
-      /// Locales: en
-      static let adsWasnTReady = Rswift.StringResource(key: "Ads wasn't ready", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Không có quảng cáo và download không giới hạn
+      /// Locales: en, zh-Hant, vi
+      static let downloadError = Rswift.StringResource(key: "Download error!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Download unlimited videos without any watermarks
       ///
-      /// Locales: en
-      static let adsFreeAndDownloadUnlimitedVideos = Rswift.StringResource(key: "Ads-free and download unlimited videos", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Không thể lưu video vào thư viện ảnh
+      /// Locales: en, zh-Hant, vi
+      static let downloadUnlimitedVideosWithoutAnyWatermarks = Rswift.StringResource(key: "Download unlimited videos without any watermarks", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Feedback
       ///
-      /// Locales: en
-      static let canNotSaveVideoToCameraRoll = Rswift.StringResource(key: "Can not save video to camera roll !", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Không thể đăng nhập bởi google
+      /// Locales: en, zh-Hant, vi
+      static let feedback = Rswift.StringResource(key: "Feedback", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: GO PREMIUM
       ///
-      /// Locales: en
-      static let canNotLoginByGoogleAccount = Rswift.StringResource(key: "Can not login by google account", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Mua VIP
+      /// Locales: en, zh-Hant, vi
+      static let gopremiuM = Rswift.StringResource(key: "GO PREMIUM", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Get coin immediately
       ///
-      /// Locales: en
-      static let buyVIP = Rswift.StringResource(key: "Buy VIP", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Mua coin
+      /// Locales: en, zh-Hant, vi
+      static let getCoinImmediately = Rswift.StringResource(key: "Get coin immediately", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: How to open download folder
       ///
-      /// Locales: en
-      static let buyCoin = Rswift.StringResource(key: "Buy coin", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Mua coin
+      /// Locales: en, zh-Hant, vi
+      static let howToOpenDownloadFolder = Rswift.StringResource(key: "How to open download folder", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: How to use
       ///
-      /// Locales: en
-      static let buyCoins = Rswift.StringResource(key: "Buy coins", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Mua thêm coin
+      /// Locales: en, zh-Hant, vi
+      static let howToUse = Rswift.StringResource(key: "How to use", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: I understood, pls don't show it again
       ///
-      /// Locales: en
-      static let buyMoreCoin = Rswift.StringResource(key: "Buy more coin", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Mở nơi chứa download ở đâu
+      /// Locales: en, zh-Hant, vi
+      static let iUnderstoodPlsDonTShowItAgain = Rswift.StringResource(key: "I understood, pls don't show it again", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Input URL here
       ///
-      /// Locales: en
-      static let howToOpenDownloadFolder = Rswift.StringResource(key: "How to open download folder", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Phản hồi
+      /// Locales: en, zh-Hant, vi
+      static let inputURLHere = Rswift.StringResource(key: "Input URL here", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Log out
       ///
-      /// Locales: en
-      static let feedback = Rswift.StringResource(key: "Feedback", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: THÀNH VIÊN VIP
+      /// Locales: en, zh-Hant, vi
+      static let logOut = Rswift.StringResource(key: "Log out", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Login failed
       ///
-      /// Locales: en
-      static let gopremiuM = Rswift.StringResource(key: "GO PREMIUM", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Thông báo
+      /// Locales: en, zh-Hant, vi
+      static let loginFailed = Rswift.StringResource(key: "Login failed", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: More app
       ///
-      /// Locales: en
-      static let alert = Rswift.StringResource(key: "Alert", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Thông báo
+      /// Locales: en, zh-Hant, vi
+      static let moreApp = Rswift.StringResource(key: "More app", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: OK
       ///
-      /// Locales: en
-      static let confirm = Rswift.StringResource(key: "Confirm", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Thông báo
+      /// Locales: en, zh-Hant, vi
+      static let oK = Rswift.StringResource(key: "OK", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Or
       ///
-      /// Locales: en
-      static let warning = Rswift.StringResource(key: "Warning!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Tôi đã hiểu, đừng nhắc lại
+      /// Locales: en, zh-Hant, vi
+      static let or = Rswift.StringResource(key: "Or", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Please paste url link !
       ///
-      /// Locales: en
-      static let iUnderstoodPlsDonTShowItAgain = Rswift.StringResource(key: "I understood, pls don't show it again", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Tự động Download
+      /// Locales: en, zh-Hant, vi
+      static let pleasePasteUrlLink = Rswift.StringResource(key: "Please paste url link !", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Privacy policy
       ///
-      /// Locales: en
-      static let autoDownload = Rswift.StringResource(key: "Auto Download", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: VIP 1 tháng
+      /// Locales: en, zh-Hant, vi
+      static let privacyPolicy = Rswift.StringResource(key: "Privacy policy", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Rate this app
       ///
-      /// Locales: en
-      static let vip1Month = Rswift.StringResource(key: "VIP 1 month", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: VIP 1 tuần
+      /// Locales: en, zh-Hant, vi
+      static let rateThisApp = Rswift.StringResource(key: "Rate this app", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Save your time by multiple downloads
       ///
-      /// Locales: en
-      static let vip1Week = Rswift.StringResource(key: "VIP 1 week", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: VIP 3 tháng
+      /// Locales: en, zh-Hant, vi
+      static let saveYourTimeByMultipleDownloads = Rswift.StringResource(key: "Save your time by multiple downloads", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: See here
       ///
-      /// Locales: en
-      static let vip3Month = Rswift.StringResource(key: "VIP 3 month", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Video download của bạn sẽ xuất hiện ở đây. Hãy xem hướng dẫn để download những video không có logo nhé
+      /// Locales: en, zh-Hant, vi
+      static let seeHere = Rswift.StringResource(key: "See here", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Share
       ///
-      /// Locales: en
-      static let yourDownloadVideosWillAppearHerePleaseSeeBellowIntructionToDownloadVideosWithoutAnyWatermask = Rswift.StringResource(key: "Your download videos will appear here. Please see bellow intruction to download videos without any watermask", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Vui lòng nhập link
+      /// Locales: en, zh-Hant, vi
+      static let share = Rswift.StringResource(key: "Share", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Sign in with Google
       ///
-      /// Locales: en
-      static let pleasePasteUrlLink = Rswift.StringResource(key: "Please paste url link !", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Xem
+      /// Locales: en, zh-Hant, vi
+      static let signInWithGoogle = Rswift.StringResource(key: "Sign in with Google", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Sign in with phone
       ///
-      /// Locales: en
-      static let seeHere = Rswift.StringResource(key: "See here", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Xem video quảng cáo
+      /// Locales: en, zh-Hant, vi
+      static let signInWithPhone = Rswift.StringResource(key: "Sign in with phone", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Switch Auto Download to download video immediately when open app
       ///
-      /// Locales: en
-      static let watchTheVideoAdvertisement = Rswift.StringResource(key: "Watch the video (advertisement)", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Xem video quảng cáo
+      /// Locales: en, zh-Hant, vi
+      static let switchAutoDownloadToDownloadVideoImmediatelyWhenOpenApp = Rswift.StringResource(key: "Switch Auto Download to download video immediately when open app", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: VIP 1 month
       ///
-      /// Locales: en
-      static let watchVideosAds = Rswift.StringResource(key: "Watch videos (Ads)", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Xem video vui nhộn và kiếm coin
+      /// Locales: en, zh-Hant, vi
+      static let vip1Month = Rswift.StringResource(key: "VIP 1 month", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: VIP 1 week
       ///
-      /// Locales: en
-      static let watchFunnyVideosAndEarnCoins = Rswift.StringResource(key: "Watch funny videos and earn coins", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Đánh giá
+      /// Locales: en, zh-Hant, vi
+      static let vip1Week = Rswift.StringResource(key: "VIP 1 week", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: VIP 3 month
       ///
-      /// Locales: en
-      static let rateThisApp = Rswift.StringResource(key: "Rate this app", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Đóng
+      /// Locales: en, zh-Hant, vi
+      static let vip3Month = Rswift.StringResource(key: "VIP 3 month", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Warning!
       ///
-      /// Locales: en
-      static let close = Rswift.StringResource(key: "Close", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Đăng nhập Google
+      /// Locales: en, zh-Hant, vi
+      static let warning = Rswift.StringResource(key: "Warning!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Watch funny videos and earn coins
       ///
-      /// Locales: en
-      static let signInWithGoogle = Rswift.StringResource(key: "Sign in with Google", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Đăng nhập lỗi
+      /// Locales: en, zh-Hant, vi
+      static let watchFunnyVideosAndEarnCoins = Rswift.StringResource(key: "Watch funny videos and earn coins", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Watch the video (advertisement)
       ///
-      /// Locales: en
-      static let loginFailed = Rswift.StringResource(key: "Login failed", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Đăng nhập điện thoại
+      /// Locales: en, zh-Hant, vi
+      static let watchTheVideoAdvertisement = Rswift.StringResource(key: "Watch the video (advertisement)", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Watch videos (Ads)
       ///
-      /// Locales: en
-      static let signInWithPhone = Rswift.StringResource(key: "Sign in with phone", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Đăng xuất
+      /// Locales: en, zh-Hant, vi
+      static let watchVideosAds = Rswift.StringResource(key: "Watch videos (Ads)", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: You do not have enough coins to download, please:
       ///
-      /// Locales: en
-      static let logOut = Rswift.StringResource(key: "Log out", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
-      /// en translation: Đồng ý
+      /// Locales: en, zh-Hant, vi
+      static let youDoNotHaveEnoughCoinsToDownloadPlease = Rswift.StringResource(key: "You do not have enough coins to download, please:", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
+      /// en translation: Your download videos will appear here. Please see bellow intruction to download videos without any watermask
       ///
-      /// Locales: en
-      static let oK = Rswift.StringResource(key: "OK", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
+      /// Locales: en, zh-Hant, vi
+      static let yourDownloadVideosWillAppearHerePleaseSeeBellowIntructionToDownloadVideosWithoutAnyWatermask = Rswift.StringResource(key: "Your download videos will appear here. Please see bellow intruction to download videos without any watermask", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hant", "vi"], comment: nil)
 
-      /// en translation: (Miễn phí dùng thử 1 ngày)
+      /// en translation: (Free trial 1 days)
       ///
-      /// Locales: en
+      /// Locales: en, zh-Hant, vi
       static func freeTrial1Days(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
           return NSLocalizedString("(Free trial 1 days)", bundle: hostingBundle, comment: "")
@@ -855,9 +855,9 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("(Free trial 1 days)", bundle: bundle, comment: "")
       }
 
-      /// en translation: (Miễn phí dùng thử 3 ngày)
+      /// en translation: (Free trial 3 days)
       ///
-      /// Locales: en
+      /// Locales: en, zh-Hant, vi
       static func freeTrial3Days(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
           return NSLocalizedString("(Free trial 3 days)", bundle: hostingBundle, comment: "")
@@ -870,9 +870,9 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("(Free trial 3 days)", bundle: bundle, comment: "")
       }
 
-      /// en translation: (Miễn phí dùng thử 5 ngày)
+      /// en translation: (Free trial 5 days)
       ///
-      /// Locales: en
+      /// Locales: en, zh-Hant, vi
       static func freeTrial5Days(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
           return NSLocalizedString("(Free trial 5 days)", bundle: hostingBundle, comment: "")
@@ -885,9 +885,9 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("(Free trial 5 days)", bundle: bundle, comment: "")
       }
 
-      /// en translation: 100% không quảng cáo
+      /// en translation: 100% Ads-free
       ///
-      /// Locales: en
+      /// Locales: en, zh-Hant, vi
       static func adsFree(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
           return NSLocalizedString("100% Ads-free", bundle: hostingBundle, comment: "")
@@ -900,249 +900,9 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("100% Ads-free", bundle: bundle, comment: "")
       }
 
-      /// en translation: Bạn có muốn đăng xuất?
+      /// en translation: Ads wasn't ready
       ///
-      /// Locales: en
-      static func doYouWantToLogOut(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Do you want to log out?", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Do you want to log out?"
-        }
-
-        return NSLocalizedString("Do you want to log out?", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Bạn không đủ coin để download, hãy:
-      ///
-      /// Locales: en
-      static func youDoNotHaveEnoughCoinsToDownloadPlease(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("You do not have enough coins to download, please:", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "You do not have enough coins to download, please:"
-        }
-
-        return NSLocalizedString("You do not have enough coins to download, please:", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Chia sẻ
-      ///
-      /// Locales: en
-      static func share(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Share", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Share"
-        }
-
-        return NSLocalizedString("Share", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Chính sách riêng tư
-      ///
-      /// Locales: en
-      static func privacyPolicy(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Privacy policy", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Privacy policy"
-        }
-
-        return NSLocalizedString("Privacy policy", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Chúc mừng bạn có 1000 coin mỗi ngày, mở app mỗi ngày để nhận coin nhé
-      ///
-      /// Locales: en
-      static func congratulationsOnHaving1000CoinsPerDayOpenTheAppEveryDayToReceiveCoins(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Congratulations on having 1000 coins per day, open the app every day to receive coins", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Congratulations on having 1000 coins per day, open the app every day to receive coins"
-        }
-
-        return NSLocalizedString("Congratulations on having 1000 coins per day, open the app every day to receive coins", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Chúc mừng!
-      ///
-      /// Locales: en
-      static func congratulation(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Congratulation!", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Congratulation!"
-        }
-
-        return NSLocalizedString("Congratulation!", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Chọn để tự động download khi mở ứng dụng
-      ///
-      /// Locales: en
-      static func switchAutoDownloadToDownloadVideoImmediatelyWhenOpenApp(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Switch Auto Download to download video immediately when open app", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Switch Auto Download to download video immediately when open app"
-        }
-
-        return NSLocalizedString("Switch Auto Download to download video immediately when open app", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Các app khác
-      ///
-      /// Locales: en
-      static func moreApp(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("More app", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "More app"
-        }
-
-        return NSLocalizedString("More app", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Có coin ngay lập tức
-      ///
-      /// Locales: en
-      static func getCoinImmediately(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Get coin immediately", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Get coin immediately"
-        }
-
-        return NSLocalizedString("Get coin immediately", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Download lỗi
-      ///
-      /// Locales: en
-      static func downloadError(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Download error!", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Download error!"
-        }
-
-        return NSLocalizedString("Download error!", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Download nhiều video cùng lúc
-      ///
-      /// Locales: en
-      static func saveYourTimeByMultipleDownloads(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Save your time by multiple downloads", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Save your time by multiple downloads"
-        }
-
-        return NSLocalizedString("Save your time by multiple downloads", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Download video không có logo không giới hạn
-      ///
-      /// Locales: en
-      static func downloadUnlimitedVideosWithoutAnyWatermarks(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Download unlimited videos without any watermarks", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Download unlimited videos without any watermarks"
-        }
-
-        return NSLocalizedString("Download unlimited videos without any watermarks", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Dán link vào đây nhé
-      ///
-      /// Locales: en
-      static func inputURLHere(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Input URL here", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Input URL here"
-        }
-
-        return NSLocalizedString("Input URL here", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Hoặc
-      ///
-      /// Locales: en
-      static func or(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Or", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Or"
-        }
-
-        return NSLocalizedString("Or", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Huỷ
-      ///
-      /// Locales: en
-      static func cancle(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Cancle", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Cancle"
-        }
-
-        return NSLocalizedString("Cancle", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Hướng dẫn sử dụng
-      ///
-      /// Locales: en
-      static func howToUse(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("How to use", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "How to use"
-        }
-
-        return NSLocalizedString("How to use", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Không có quảng cáo sẵn sàng
-      ///
-      /// Locales: en
+      /// Locales: en, zh-Hant, vi
       static func adsWasnTReady(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
           return NSLocalizedString("Ads wasn't ready", bundle: hostingBundle, comment: "")
@@ -1155,9 +915,9 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("Ads wasn't ready", bundle: bundle, comment: "")
       }
 
-      /// en translation: Không có quảng cáo và download không giới hạn
+      /// en translation: Ads-free and download unlimited videos
       ///
-      /// Locales: en
+      /// Locales: en, zh-Hant, vi
       static func adsFreeAndDownloadUnlimitedVideos(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
           return NSLocalizedString("Ads-free and download unlimited videos", bundle: hostingBundle, comment: "")
@@ -1170,144 +930,9 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("Ads-free and download unlimited videos", bundle: bundle, comment: "")
       }
 
-      /// en translation: Không thể lưu video vào thư viện ảnh
+      /// en translation: Alert
       ///
-      /// Locales: en
-      static func canNotSaveVideoToCameraRoll(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Can not save video to camera roll !", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Can not save video to camera roll !"
-        }
-
-        return NSLocalizedString("Can not save video to camera roll !", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Không thể đăng nhập bởi google
-      ///
-      /// Locales: en
-      static func canNotLoginByGoogleAccount(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Can not login by google account", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Can not login by google account"
-        }
-
-        return NSLocalizedString("Can not login by google account", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Mua VIP
-      ///
-      /// Locales: en
-      static func buyVIP(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Buy VIP", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Buy VIP"
-        }
-
-        return NSLocalizedString("Buy VIP", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Mua coin
-      ///
-      /// Locales: en
-      static func buyCoin(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Buy coin", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Buy coin"
-        }
-
-        return NSLocalizedString("Buy coin", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Mua coin
-      ///
-      /// Locales: en
-      static func buyCoins(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Buy coins", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Buy coins"
-        }
-
-        return NSLocalizedString("Buy coins", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Mua thêm coin
-      ///
-      /// Locales: en
-      static func buyMoreCoin(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Buy more coin", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Buy more coin"
-        }
-
-        return NSLocalizedString("Buy more coin", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Mở nơi chứa download ở đâu
-      ///
-      /// Locales: en
-      static func howToOpenDownloadFolder(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("How to open download folder", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "How to open download folder"
-        }
-
-        return NSLocalizedString("How to open download folder", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Phản hồi
-      ///
-      /// Locales: en
-      static func feedback(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Feedback", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Feedback"
-        }
-
-        return NSLocalizedString("Feedback", bundle: bundle, comment: "")
-      }
-
-      /// en translation: THÀNH VIÊN VIP
-      ///
-      /// Locales: en
-      static func gopremiuM(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("GO PREMIUM", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "GO PREMIUM"
-        }
-
-        return NSLocalizedString("GO PREMIUM", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Thông báo
-      ///
-      /// Locales: en
+      /// Locales: en, zh-Hant, vi
       static func alert(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
           return NSLocalizedString("Alert", bundle: hostingBundle, comment: "")
@@ -1320,54 +945,9 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("Alert", bundle: bundle, comment: "")
       }
 
-      /// en translation: Thông báo
+      /// en translation: Auto Download
       ///
-      /// Locales: en
-      static func confirm(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Confirm", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Confirm"
-        }
-
-        return NSLocalizedString("Confirm", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Thông báo
-      ///
-      /// Locales: en
-      static func warning(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Warning!", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Warning!"
-        }
-
-        return NSLocalizedString("Warning!", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Tôi đã hiểu, đừng nhắc lại
-      ///
-      /// Locales: en
-      static func iUnderstoodPlsDonTShowItAgain(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("I understood, pls don't show it again", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "I understood, pls don't show it again"
-        }
-
-        return NSLocalizedString("I understood, pls don't show it again", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Tự động Download
-      ///
-      /// Locales: en
+      /// Locales: en, zh-Hant, vi
       static func autoDownload(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
           return NSLocalizedString("Auto Download", bundle: hostingBundle, comment: "")
@@ -1380,159 +960,114 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("Auto Download", bundle: bundle, comment: "")
       }
 
-      /// en translation: VIP 1 tháng
+      /// en translation: Buy VIP
       ///
-      /// Locales: en
-      static func vip1Month(preferredLanguages: [String]? = nil) -> String {
+      /// Locales: en, zh-Hant, vi
+      static func buyVIP(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("VIP 1 month", bundle: hostingBundle, comment: "")
+          return NSLocalizedString("Buy VIP", bundle: hostingBundle, comment: "")
         }
 
         guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "VIP 1 month"
+          return "Buy VIP"
         }
 
-        return NSLocalizedString("VIP 1 month", bundle: bundle, comment: "")
+        return NSLocalizedString("Buy VIP", bundle: bundle, comment: "")
       }
 
-      /// en translation: VIP 1 tuần
+      /// en translation: Buy coin
       ///
-      /// Locales: en
-      static func vip1Week(preferredLanguages: [String]? = nil) -> String {
+      /// Locales: en, zh-Hant, vi
+      static func buyCoin(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("VIP 1 week", bundle: hostingBundle, comment: "")
+          return NSLocalizedString("Buy coin", bundle: hostingBundle, comment: "")
         }
 
         guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "VIP 1 week"
+          return "Buy coin"
         }
 
-        return NSLocalizedString("VIP 1 week", bundle: bundle, comment: "")
+        return NSLocalizedString("Buy coin", bundle: bundle, comment: "")
       }
 
-      /// en translation: VIP 3 tháng
+      /// en translation: Buy coins
       ///
-      /// Locales: en
-      static func vip3Month(preferredLanguages: [String]? = nil) -> String {
+      /// Locales: en, zh-Hant, vi
+      static func buyCoins(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("VIP 3 month", bundle: hostingBundle, comment: "")
+          return NSLocalizedString("Buy coins", bundle: hostingBundle, comment: "")
         }
 
         guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "VIP 3 month"
+          return "Buy coins"
         }
 
-        return NSLocalizedString("VIP 3 month", bundle: bundle, comment: "")
+        return NSLocalizedString("Buy coins", bundle: bundle, comment: "")
       }
 
-      /// en translation: Video download của bạn sẽ xuất hiện ở đây. Hãy xem hướng dẫn để download những video không có logo nhé
+      /// en translation: Buy more coin
       ///
-      /// Locales: en
-      static func yourDownloadVideosWillAppearHerePleaseSeeBellowIntructionToDownloadVideosWithoutAnyWatermask(preferredLanguages: [String]? = nil) -> String {
+      /// Locales: en, zh-Hant, vi
+      static func buyMoreCoin(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Your download videos will appear here. Please see bellow intruction to download videos without any watermask", bundle: hostingBundle, comment: "")
+          return NSLocalizedString("Buy more coin", bundle: hostingBundle, comment: "")
         }
 
         guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Your download videos will appear here. Please see bellow intruction to download videos without any watermask"
+          return "Buy more coin"
         }
 
-        return NSLocalizedString("Your download videos will appear here. Please see bellow intruction to download videos without any watermask", bundle: bundle, comment: "")
+        return NSLocalizedString("Buy more coin", bundle: bundle, comment: "")
       }
 
-      /// en translation: Vui lòng nhập link
+      /// en translation: Can not login by google account
       ///
-      /// Locales: en
-      static func pleasePasteUrlLink(preferredLanguages: [String]? = nil) -> String {
+      /// Locales: en, zh-Hant, vi
+      static func canNotLoginByGoogleAccount(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Please paste url link !", bundle: hostingBundle, comment: "")
+          return NSLocalizedString("Can not login by google account", bundle: hostingBundle, comment: "")
         }
 
         guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Please paste url link !"
+          return "Can not login by google account"
         }
 
-        return NSLocalizedString("Please paste url link !", bundle: bundle, comment: "")
+        return NSLocalizedString("Can not login by google account", bundle: bundle, comment: "")
       }
 
-      /// en translation: Xem
+      /// en translation: Can not save video to camera roll !
       ///
-      /// Locales: en
-      static func seeHere(preferredLanguages: [String]? = nil) -> String {
+      /// Locales: en, zh-Hant, vi
+      static func canNotSaveVideoToCameraRoll(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("See here", bundle: hostingBundle, comment: "")
+          return NSLocalizedString("Can not save video to camera roll !", bundle: hostingBundle, comment: "")
         }
 
         guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "See here"
+          return "Can not save video to camera roll !"
         }
 
-        return NSLocalizedString("See here", bundle: bundle, comment: "")
+        return NSLocalizedString("Can not save video to camera roll !", bundle: bundle, comment: "")
       }
 
-      /// en translation: Xem video quảng cáo
+      /// en translation: Cancle
       ///
-      /// Locales: en
-      static func watchTheVideoAdvertisement(preferredLanguages: [String]? = nil) -> String {
+      /// Locales: en, zh-Hant, vi
+      static func cancle(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Watch the video (advertisement)", bundle: hostingBundle, comment: "")
+          return NSLocalizedString("Cancle", bundle: hostingBundle, comment: "")
         }
 
         guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Watch the video (advertisement)"
+          return "Cancle"
         }
 
-        return NSLocalizedString("Watch the video (advertisement)", bundle: bundle, comment: "")
+        return NSLocalizedString("Cancle", bundle: bundle, comment: "")
       }
 
-      /// en translation: Xem video quảng cáo
+      /// en translation: Close
       ///
-      /// Locales: en
-      static func watchVideosAds(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Watch videos (Ads)", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Watch videos (Ads)"
-        }
-
-        return NSLocalizedString("Watch videos (Ads)", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Xem video vui nhộn và kiếm coin
-      ///
-      /// Locales: en
-      static func watchFunnyVideosAndEarnCoins(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Watch funny videos and earn coins", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Watch funny videos and earn coins"
-        }
-
-        return NSLocalizedString("Watch funny videos and earn coins", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Đánh giá
-      ///
-      /// Locales: en
-      static func rateThisApp(preferredLanguages: [String]? = nil) -> String {
-        guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Rate this app", bundle: hostingBundle, comment: "")
-        }
-
-        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Rate this app"
-        }
-
-        return NSLocalizedString("Rate this app", bundle: bundle, comment: "")
-      }
-
-      /// en translation: Đóng
-      ///
-      /// Locales: en
+      /// Locales: en, zh-Hant, vi
       static func close(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
           return NSLocalizedString("Close", bundle: hostingBundle, comment: "")
@@ -1545,54 +1080,204 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("Close", bundle: bundle, comment: "")
       }
 
-      /// en translation: Đăng nhập Google
+      /// en translation: Confirm
       ///
-      /// Locales: en
-      static func signInWithGoogle(preferredLanguages: [String]? = nil) -> String {
+      /// Locales: en, zh-Hant, vi
+      static func confirm(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Sign in with Google", bundle: hostingBundle, comment: "")
+          return NSLocalizedString("Confirm", bundle: hostingBundle, comment: "")
         }
 
         guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Sign in with Google"
+          return "Confirm"
         }
 
-        return NSLocalizedString("Sign in with Google", bundle: bundle, comment: "")
+        return NSLocalizedString("Confirm", bundle: bundle, comment: "")
       }
 
-      /// en translation: Đăng nhập lỗi
+      /// en translation: Congratulation!
       ///
-      /// Locales: en
-      static func loginFailed(preferredLanguages: [String]? = nil) -> String {
+      /// Locales: en, zh-Hant, vi
+      static func congratulation(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Login failed", bundle: hostingBundle, comment: "")
+          return NSLocalizedString("Congratulation!", bundle: hostingBundle, comment: "")
         }
 
         guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Login failed"
+          return "Congratulation!"
         }
 
-        return NSLocalizedString("Login failed", bundle: bundle, comment: "")
+        return NSLocalizedString("Congratulation!", bundle: bundle, comment: "")
       }
 
-      /// en translation: Đăng nhập điện thoại
+      /// en translation: Congratulations on having 1000 coins per day, open the app every day to receive coins
       ///
-      /// Locales: en
-      static func signInWithPhone(preferredLanguages: [String]? = nil) -> String {
+      /// Locales: en, zh-Hant, vi
+      static func congratulationsOnHaving1000CoinsPerDayOpenTheAppEveryDayToReceiveCoins(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
-          return NSLocalizedString("Sign in with phone", bundle: hostingBundle, comment: "")
+          return NSLocalizedString("Congratulations on having 1000 coins per day, open the app every day to receive coins", bundle: hostingBundle, comment: "")
         }
 
         guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
-          return "Sign in with phone"
+          return "Congratulations on having 1000 coins per day, open the app every day to receive coins"
         }
 
-        return NSLocalizedString("Sign in with phone", bundle: bundle, comment: "")
+        return NSLocalizedString("Congratulations on having 1000 coins per day, open the app every day to receive coins", bundle: bundle, comment: "")
       }
 
-      /// en translation: Đăng xuất
+      /// en translation: Do you want to log out?
       ///
-      /// Locales: en
+      /// Locales: en, zh-Hant, vi
+      static func doYouWantToLogOut(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Do you want to log out?", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Do you want to log out?"
+        }
+
+        return NSLocalizedString("Do you want to log out?", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Download error!
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func downloadError(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Download error!", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Download error!"
+        }
+
+        return NSLocalizedString("Download error!", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Download unlimited videos without any watermarks
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func downloadUnlimitedVideosWithoutAnyWatermarks(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Download unlimited videos without any watermarks", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Download unlimited videos without any watermarks"
+        }
+
+        return NSLocalizedString("Download unlimited videos without any watermarks", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Feedback
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func feedback(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Feedback", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Feedback"
+        }
+
+        return NSLocalizedString("Feedback", bundle: bundle, comment: "")
+      }
+
+      /// en translation: GO PREMIUM
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func gopremiuM(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("GO PREMIUM", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "GO PREMIUM"
+        }
+
+        return NSLocalizedString("GO PREMIUM", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Get coin immediately
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func getCoinImmediately(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Get coin immediately", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Get coin immediately"
+        }
+
+        return NSLocalizedString("Get coin immediately", bundle: bundle, comment: "")
+      }
+
+      /// en translation: How to open download folder
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func howToOpenDownloadFolder(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("How to open download folder", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "How to open download folder"
+        }
+
+        return NSLocalizedString("How to open download folder", bundle: bundle, comment: "")
+      }
+
+      /// en translation: How to use
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func howToUse(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("How to use", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "How to use"
+        }
+
+        return NSLocalizedString("How to use", bundle: bundle, comment: "")
+      }
+
+      /// en translation: I understood, pls don't show it again
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func iUnderstoodPlsDonTShowItAgain(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("I understood, pls don't show it again", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "I understood, pls don't show it again"
+        }
+
+        return NSLocalizedString("I understood, pls don't show it again", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Input URL here
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func inputURLHere(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Input URL here", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Input URL here"
+        }
+
+        return NSLocalizedString("Input URL here", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Log out
+      ///
+      /// Locales: en, zh-Hant, vi
       static func logOut(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
           return NSLocalizedString("Log out", bundle: hostingBundle, comment: "")
@@ -1605,9 +1290,39 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("Log out", bundle: bundle, comment: "")
       }
 
-      /// en translation: Đồng ý
+      /// en translation: Login failed
       ///
-      /// Locales: en
+      /// Locales: en, zh-Hant, vi
+      static func loginFailed(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Login failed", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Login failed"
+        }
+
+        return NSLocalizedString("Login failed", bundle: bundle, comment: "")
+      }
+
+      /// en translation: More app
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func moreApp(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("More app", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "More app"
+        }
+
+        return NSLocalizedString("More app", bundle: bundle, comment: "")
+      }
+
+      /// en translation: OK
+      ///
+      /// Locales: en, zh-Hant, vi
       static func oK(preferredLanguages: [String]? = nil) -> String {
         guard let preferredLanguages = preferredLanguages else {
           return NSLocalizedString("OK", bundle: hostingBundle, comment: "")
@@ -1618,6 +1333,291 @@ struct R: Rswift.Validatable {
         }
 
         return NSLocalizedString("OK", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Or
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func or(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Or", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Or"
+        }
+
+        return NSLocalizedString("Or", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Please paste url link !
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func pleasePasteUrlLink(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Please paste url link !", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Please paste url link !"
+        }
+
+        return NSLocalizedString("Please paste url link !", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Privacy policy
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func privacyPolicy(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Privacy policy", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Privacy policy"
+        }
+
+        return NSLocalizedString("Privacy policy", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Rate this app
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func rateThisApp(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Rate this app", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Rate this app"
+        }
+
+        return NSLocalizedString("Rate this app", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Save your time by multiple downloads
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func saveYourTimeByMultipleDownloads(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Save your time by multiple downloads", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Save your time by multiple downloads"
+        }
+
+        return NSLocalizedString("Save your time by multiple downloads", bundle: bundle, comment: "")
+      }
+
+      /// en translation: See here
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func seeHere(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("See here", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "See here"
+        }
+
+        return NSLocalizedString("See here", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Share
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func share(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Share", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Share"
+        }
+
+        return NSLocalizedString("Share", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Sign in with Google
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func signInWithGoogle(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Sign in with Google", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Sign in with Google"
+        }
+
+        return NSLocalizedString("Sign in with Google", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Sign in with phone
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func signInWithPhone(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Sign in with phone", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Sign in with phone"
+        }
+
+        return NSLocalizedString("Sign in with phone", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Switch Auto Download to download video immediately when open app
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func switchAutoDownloadToDownloadVideoImmediatelyWhenOpenApp(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Switch Auto Download to download video immediately when open app", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Switch Auto Download to download video immediately when open app"
+        }
+
+        return NSLocalizedString("Switch Auto Download to download video immediately when open app", bundle: bundle, comment: "")
+      }
+
+      /// en translation: VIP 1 month
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func vip1Month(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("VIP 1 month", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "VIP 1 month"
+        }
+
+        return NSLocalizedString("VIP 1 month", bundle: bundle, comment: "")
+      }
+
+      /// en translation: VIP 1 week
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func vip1Week(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("VIP 1 week", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "VIP 1 week"
+        }
+
+        return NSLocalizedString("VIP 1 week", bundle: bundle, comment: "")
+      }
+
+      /// en translation: VIP 3 month
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func vip3Month(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("VIP 3 month", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "VIP 3 month"
+        }
+
+        return NSLocalizedString("VIP 3 month", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Warning!
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func warning(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Warning!", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Warning!"
+        }
+
+        return NSLocalizedString("Warning!", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Watch funny videos and earn coins
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func watchFunnyVideosAndEarnCoins(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Watch funny videos and earn coins", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Watch funny videos and earn coins"
+        }
+
+        return NSLocalizedString("Watch funny videos and earn coins", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Watch the video (advertisement)
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func watchTheVideoAdvertisement(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Watch the video (advertisement)", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Watch the video (advertisement)"
+        }
+
+        return NSLocalizedString("Watch the video (advertisement)", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Watch videos (Ads)
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func watchVideosAds(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Watch videos (Ads)", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Watch videos (Ads)"
+        }
+
+        return NSLocalizedString("Watch videos (Ads)", bundle: bundle, comment: "")
+      }
+
+      /// en translation: You do not have enough coins to download, please:
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func youDoNotHaveEnoughCoinsToDownloadPlease(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("You do not have enough coins to download, please:", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "You do not have enough coins to download, please:"
+        }
+
+        return NSLocalizedString("You do not have enough coins to download, please:", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Your download videos will appear here. Please see bellow intruction to download videos without any watermask
+      ///
+      /// Locales: en, zh-Hant, vi
+      static func yourDownloadVideosWillAppearHerePleaseSeeBellowIntructionToDownloadVideosWithoutAnyWatermask(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("Your download videos will appear here. Please see bellow intruction to download videos without any watermask", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "Your download videos will appear here. Please see bellow intruction to download videos without any watermask"
+        }
+
+        return NSLocalizedString("Your download videos will appear here. Please see bellow intruction to download videos without any watermask", bundle: bundle, comment: "")
       }
 
       fileprivate init() {}

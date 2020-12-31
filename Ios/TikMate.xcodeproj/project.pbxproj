@@ -141,8 +141,9 @@
 		15DFD516258DB70D00AA0D82 /* VideoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCollectionViewCell.xib; sourceTree = "<group>"; };
 		15E96647259330820077DD84 /* PopupWarningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupWarningViewController.swift; sourceTree = "<group>"; };
 		15F66223259B45680091F7A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		15F66226259B45750091F7A9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		15F6628D259B48F90091F7A9 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		15F66290259C1CA70091F7A9 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		15F66292259C222C0091F7A9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		15F8A3252591963D00667CFD /* CoinMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMenuTableViewCell.swift; sourceTree = "<group>"; };
 		15F8A3262591963D00667CFD /* CoinMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinMenuTableViewCell.xib; sourceTree = "<group>"; };
 		79B012CABB69354665BBAA11 /* Pods-TikMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikMate.debug.xcconfig"; path = "Target Support Files/Pods-TikMate/Pods-TikMate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -539,6 +540,7 @@
 				en,
 				vi,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 155D01BD2587AF6C00793D88;
 			productRefGroup = 155D01C72587AF6C00793D88 /* Products */;
@@ -719,7 +721,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				15F66223259B45680091F7A9 /* en */,
-				15F66226259B45750091F7A9 /* vi */,
+				15F66290259C1CA70091F7A9 /* zh-Hant */,
+				15F66292259C222C0091F7A9 /* vi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
